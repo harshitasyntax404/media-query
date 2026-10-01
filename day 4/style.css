@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-start{
+    justify-content: start;
+}
+
+.justify-content-end{
+    justify-content: end;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+
+.justify-content-around{
+    justify-content: space-around;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-start{
+    align-items: start;
+}
+
+.align-items-end{
+    align-items: end;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin: 15px 15px;
+}
+.profile-img{
+    background-image: url(./asessts/pro-img.jpg);
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    border-radius: 50%;
+    
+}
+.hero-profile p{
+    margin: 20px 0px;
+}
+
+.hero-profile button{
+    background-color: #ff6464;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 2px;
+    font-size: 18px;
+    font-size: 20px;
+    border-radius: 5px;
+    
+}
+.hero-profile{
+    background-color: aliceblue;
+    height: 500px;
+    
+}
+.hero-probox{
+    margin-left: 20px;
+}
