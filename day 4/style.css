@@ -12,6 +12,7 @@ body{
     align-items: center;
 }
 
+
 .d-flex{
     display: flex;
 }
@@ -67,8 +68,8 @@ a{
 .profile-img{
     background-image: url(./asessts/pro-img.jpg);
     background-position: center;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     background-size: cover;
     border-radius: 50%;
     
@@ -82,17 +83,32 @@ a{
     color: white;
     border: none;
     padding: 15px 25px;
-    border-radius: 2px;
-    font-size: 18px;
+    border-radius: 2px;   
     font-size: 20px;
     border-radius: 5px;
     
 }
-.hero-profile{
-    background-color: aliceblue;
-    height: 500px;
-    
+
+.recent-box{
+    background-color: rgb(201, 226, 248);
+    width: 100%;
 }
-.hero-probox{
-    margin-left: 20px;
+.under-recent-box{
+    background-color:white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    border-radius: 8px;
+    max-width: 450px;
+}
+.gap-10{
+    gap: 15px;
+}
+.recent-box-header{
+    padding: 0px 15px;
+}
+.icon{
+    background-color: black;
 }
