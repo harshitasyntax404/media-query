@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     height: 100vh;
@@ -109,6 +109,32 @@ a{
 .recent-box-header{
     padding: 0px 15px;
 }
-.icon{
-    background-color: black;
+.featured-box-img{
+    background-image: url(https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/293430524/original/06d6fffab2d728f8bcad4889e01f917742a9c79b/design-web-pages-admin-dashboard-ui-ux-of-website.png);
+    background-position: center;
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 8px;
+}
+.fuatured-box-left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.featured-section h1{
+    padding: 20px 0px;
+}
+.fuatured-box-left-under button{
+    background-color: #001b6d;
+    color: white;
+    border: none;
+    padding: 5px 10px;   
+    font-size: 13px;
+    border-radius: 20px;
+
+}
+.fuatured-box-left-under span{
+    color: #707171;
+    margin-left:20px;
 }
