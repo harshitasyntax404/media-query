@@ -7,6 +7,13 @@
 .col-2{
     width: 100%;
 }
+.col-featured-box-left{
+    width:20%;
+  
+}
+.col-featured-box-right{
+    width:80%;
+}
 
 @media (max-width: 576px){
     .container{
@@ -24,6 +31,10 @@
     }
     .icon{
         display:inline;
+    }
+    .featured-section h1{
+        display: flex;
+        justify-content: center;
     }
 }
 @media (min-width: 576px){
@@ -46,6 +57,7 @@
     .icon{
         display:inline;
     }
+    
 }
 
 @media (min-width: 768px){
@@ -63,10 +75,7 @@
     .header a{
         display:none;
     }
-    .icon{
-        display:inline;
-    }
-}
+}  
 
 @media (min-width: 992px){
     .container{
@@ -79,6 +88,9 @@
     }
     .recent-box-header span{
         display: inline;
+    }
+   .header a{
+        display:inline;
     }
     .icon{
         display:none;
@@ -99,9 +111,11 @@
     .header a{
         display:inline;
     }
-    .icon{
-        display:none;
+    .ri-menu-line{
+        display:inline;
     }
+
+    
 }
 
 @media (min-width: 1400px){
