@@ -32,18 +32,39 @@
     .icon{
         display:inline;
     }
+    .recent-box{
+        display: flex;
+        justify-content: center;
+    }
     .featured-section h1{
         display: flex;
         justify-content: center;
     }
+    .featured-box{
+        width: 100%;
+        flex-direction: column;
+    }
+    .featured-box div div{
+        justify-content: center;
+    }
+    .col-featured-box-left{
+         width:70%;
+         
+    }
+    .col-featured-box-right{
+        width:90%;
+    }
+    
+    
 }
 @media (min-width: 576px){
     .container{
         width: 540px;
-        flex-direction: column-reverse;
+        flex-direction: row;
+        
     }
     .col-2{
-        width: 95%;
+        width: 100%;
     }
     .under-recent-box{
         width: 100%;
@@ -57,13 +78,20 @@
     .icon{
         display:inline;
     }
+    .recent-box{
+        display: flex;
+        justify-content: center;
+    }
+    .featured-box-img{
+        width: 100%;
+    }
     
 }
 
 @media (min-width: 768px){
     .container{
         width: 720px;
-       flex-direction: column-reverse;
+       flex-direction: row;
         
     }
     .col-2{
@@ -75,13 +103,19 @@
     .header a{
         display:none;
     }
+    .featured-box {
+        display: flex;
+       
+    }
+    .featured-box-img{
+        width: 100%;
+    }
 }  
 
 @media (min-width: 992px){
     .container{
         width: 960px;
         flex-direction: row;
-        
     }
     .col-2{
         width: 50%;
@@ -89,12 +123,16 @@
     .recent-box-header span{
         display: inline;
     }
-   .header a{
+    .header a{
         display:inline;
     }
-    .icon{
-        display:none;
+    .ri-menu-line{
+        display:inline;
     }
+    .featured-box-img{
+        width: 100%;
+    }
+    
 }
 
 @media (min-width: 1200px){
@@ -114,7 +152,10 @@
     .ri-menu-line{
         display:inline;
     }
-
+    .featured-box-img{
+        width: 100%;
+    }
+    
     
 }
 
@@ -135,4 +176,7 @@
     .icon{
         display:none;
     }
+}
+hr{
+    margin-top: 30px;
 }
