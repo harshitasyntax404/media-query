@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-start{
+    justify-content: start;
+}
+
+.justify-content-end{
+    justify-content: end;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+
+.justify-content-around{
+    justify-content: space-around;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-start{
+    align-items: start;
+}
+
+.align-items-end{
+    align-items: end;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin: 15px 15px;
+}
+.profile-img{
+    background-image: url(./asessts/pro-img.jpg);
+    background-position: center;
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 50%;
+    
+}
+.hero-profile p{
+    margin: 20px 0px;
+}
+
+.hero-profile button{
+    background-color: #ff6464;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 2px;   
+    font-size: 20px;
+    border-radius: 5px;
+    
+}
+
+.recent-box{
+    background-color: rgb(201, 226, 248);
+    width: 100%;
+}
+.under-recent-box{
+    background-color:white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    border-radius: 8px;
+    max-width: 450px;
+}
+.gap-10{
+    gap: 10px;
+}
+.recent-box-header{
+    padding: 0px 15px;
+}
+.featured-box-img{
+    background-image: url(https://t3.ftcdn.net/jpg/01/64/90/90/360_F_164909094_4yYTwU2EQYcfnQHjlDzTUlFInp5EZ6zU.jpg);
+    background-position: center;
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 8px;
+}
+.fuatured-box-left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.featured-section h1{
+    padding: 20px 0px;
+}
+.fuatured-box-left-under button{
+    background-color: #001b6d;
+    color: white;
+    border: none;
+    padding: 5px 10px;   
+    font-size: 13px;
+    border-radius: 20px;
+
+}
+.fuatured-box-left-under span{
+    color: #707171;
+    margin-left:20px;
+}
