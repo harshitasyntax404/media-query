@@ -1,0 +1,310 @@
+.container{
+    width: 100%;
+    margin:10px 0px;
+ 
+}
+
+.col-2{
+    width: 100%;
+}
+.col-featured-box-left{
+    width:20%;
+  
+}
+.col-featured-box-right{
+    width:80%;
+}
+hr{
+    margin-top: 30px;
+}
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.col-2 {
+    flex: 1;
+}
+
+.col-featured-box-left {
+    width: 40%;
+}
+
+.col-featured-box-right {
+    width: 60%;
+}
+
+.recent-box-bg {
+    width: 100%;
+    max-width: 1100px;
+    padding: 20px 0;
+}
+
+.featured-section {
+    width: 100%;
+    max-width: 1100px;
+    padding: 0 20px;
+}
+
+.featured-section hr {
+    margin: 25px 0;
+}
+
+img,
+.featured-box-img {
+    max-width: 100%;
+}
+@media (min-width: 1280px) {
+ 
+    .container,
+    .recent-box-bg,
+    .featured-section {
+        max-width: 1200px;
+    }
+ 
+    .hero-profile h1 {
+        font-size: 44px;
+    }
+ 
+    .hero-profile h2 {
+        font-size: 22px;
+    }
+ 
+    .hero-profile p {
+        font-size: 17px;
+        line-height: 1.6;
+    }
+ 
+    .profile-img {
+        height: 320px;
+        width: 320px;
+    }
+ 
+    .featured-box-img {
+        height: 230px;
+    }
+    .ri-menu-line{
+        display: none;
+    }
+    
+    .header a{
+        display: inline;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .container,
+    .featured-section {
+        padding: 0 25px;
+    }
+
+    .profile-img {
+        height: 220px;
+        width: 220px;
+    }
+
+    .under-recent-box {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .hero-profile h1 {
+        font-size: 30px;
+    }
+
+    .hero-profile h2 {
+        font-size: 18px;
+    }
+    .ri-menu-line{
+        display: none;
+    }
+    
+    .header a{
+        display: inline;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .header {
+        padding: 10px 20px;
+    }
+
+    a {
+        margin: 10px 10px;
+    }
+
+    .hero-profile {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 25px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .hero-profile .col-2 {
+        width: 100%;
+        flex: none;
+    }
+
+    .hero-profile h1 {
+        font-size: 28px;
+    }
+
+    .hero-profile h2 {
+        font-size: 17px;
+    }
+
+    .profile-img {
+        height: 200px;
+        width: 200px;
+    }
+
+  
+    .recent-box-bg {
+        padding: 20px 0;
+    }
+
+    .recent-box .container.d-flex.gap-10 {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .recent-box .col-2 {
+        width: 100%;
+        flex: none;
+        justify-content: center;
+    }
+
+    .under-recent-box {
+        width: 100%;
+        max-width: 100%;
+    }
+
+   
+    .featured-box {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 20px;
+    }
+
+    .col-featured-box-left,
+    .col-featured-box-right {
+        width: 100%;
+    }
+
+    .featured-box-img {
+        height: 220px;
+    }
+
+    .featured-section h1 {
+        font-size: 26px;
+        padding: 15px 0;
+    }
+    .ri-menu-line{
+        display: none;
+    }
+    .ri-menu-line{
+        display: inline;
+    }
+    .header a{
+        display: none;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .container,
+    .featured-section {
+        padding: 0 15px;
+    }
+
+   
+    .header {
+        flex-wrap: wrap;
+        padding: 10px 15px;
+    }
+
+    a {
+        margin: 8px 8px;
+        font-size: 14px;
+    }
+
+    
+    .hero-profile h1 {
+        font-size: 24px;
+    }
+
+    .hero-profile h2 {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    .hero-profile p {
+        font-size: 14px;
+        margin: 15px 0;
+    }
+
+    .hero-profile button {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+
+    .profile-img {
+        height: 160px;
+        width: 160px;
+    }
+
+    
+    .recent-box-header {
+        padding: 0 15px;
+    }
+
+    .under-recent-box {
+        padding: 15px;
+        gap: 12px;
+    }
+
+    .under-recent-box h2 {
+        font-size: 18px;
+    }
+
+    .under-recent-box p {
+        font-size: 14px;
+    }
+
+    
+    .featured-section h1 {
+        font-size: 22px;
+    }
+
+    .featured-box-img {
+        height: 180px;
+    }
+
+    .fuatured-box-left h2 {
+        font-size: 18px;
+    }
+
+    .fuatured-box-left p {
+        font-size: 14px;
+    }
+
+    .fuatured-box-left-under span {
+        margin-left: 12px;
+        font-size: 14px;
+    }
+    .ri-menu-line{
+        display: inline;
+    }
+    .header a{
+        display: none;
+    }
+    
+}
